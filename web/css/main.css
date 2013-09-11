@@ -4,19 +4,30 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.site-background{
+    background:
+        radial-gradient(circle, transparent 20%, #EDEDED 20%, #EDEDED 80%, transparent 80%, transparent),
+        radial-gradient(circle, transparent 20%, #EDEDED 20%, #EDEDED 80%, transparent 80%, transparent) 50px 50px,
+        linear-gradient(#F5F5F5 8px, transparent 8px) 0 -4px,
+        linear-gradient(90deg, #F5F5F5 8px, transparent 8px) -4px 0;
+    background-color: #EDEDED;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+.font-white{
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.padding-vert-md {
+    padding: 1.5em 0;
+}
