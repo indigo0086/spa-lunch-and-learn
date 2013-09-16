@@ -1,0 +1,13 @@
+<div class="navbar navbar-default navbar-fixed-top" ng-controller="NavController">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">{{brandName}}</a>
+        </div>
+
+        <div class="nav navbar-nav" ng-repeat="item in menuItems">
+            <li>
+                <a ng-href="{{item.url}}">{{item.title}}</a>
+            </li>
+        </div>
+    </div>
+</div>

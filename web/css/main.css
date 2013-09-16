@@ -53,3 +53,6 @@ body {
 .space-top-lg {
     padding-top: 2.5em;
 }
+
+.feature-column { height: 200px; }
+    .feature-column .btn { bottom: 0; position: absolute; }
