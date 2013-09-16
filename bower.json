@@ -1,0 +1,24 @@
+{
+  "name": "spa-lunch-and-learn",
+  "version": "0.0.0",
+  "homepage": "https://github.com/indigo0086/spa-lunch-and-learn",
+  "authors": [
+    "indigo0086 <indigo0086@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.0.8",
+    "lodash": "~2.0.0",
+    "bootstrap": "~3.0.0",
+    "modernizr": "~2.6.2",
+    "angular-ui": "~0.4.0"
+  }
+}
