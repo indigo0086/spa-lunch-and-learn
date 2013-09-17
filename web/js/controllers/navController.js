@@ -1,4 +1,4 @@
-angular.module("spaLunchAndLearn")
+angular.module("SpaApp.Controllers")
     .controller("NavController", function ($scope) {
         $scope.brandName = "Lunch-N-Learn";
         $scope.menuItems = [

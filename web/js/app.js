@@ -1,4 +1,6 @@
-angular.module("spaLunchAndLearn", [])
+angular.module("SpaApp.Controllers", []);
+
+angular.module("SpaApp", ["SpaApp.Controllers"])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
