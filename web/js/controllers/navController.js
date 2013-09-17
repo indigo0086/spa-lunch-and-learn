@@ -1,5 +1,5 @@
 angular.module("spaLunchAndLearn")
-    .controller("NavController", function($scope) {
+    .controller("NavController", function ($scope) {
         $scope.brandName = "Lunch-N-Learn";
         $scope.menuItems = [
             { title: "Groups", url: "/Groups" },

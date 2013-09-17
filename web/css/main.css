@@ -54,5 +54,11 @@ body {
     padding-top: 2.5em;
 }
 
-.feature-column { height: 200px; }
-    .feature-column .btn { bottom: 0; position: absolute; }
+.feature-column {
+    height: 200px;
+    color: #3d4e5d;
+}
+    .feature-column .btn {
+        bottom: 0;
+        position: absolute;
+    }
