@@ -13,8 +13,8 @@ In the command line, run the following command:
 
 This will install yeoman globally.
 
-## Install Grunt node packages
-The file **package.json** defines the necessary packages needed for grunt tasks to run,
+## Install Grunt Node Package Dependencies for Project
+The file **package.json** defines the necessary node packages needed for grunt tasks to run,
 to install that in the command line navigate to the root folder for this project and run the command:
 
     node install
@@ -28,7 +28,8 @@ To install, run the command:
 
     bower install
 
-This will create a bower_components folder in the web path, again, do not check this into source control
+This will create a bower_components folder in the web path with the necessary required packages. 
+Again, do not check this into source control
 
 
 ## Running the Server and Developing
