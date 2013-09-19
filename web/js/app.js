@@ -1,11 +1,15 @@
 angular.module("SpaApp.Controllers", []);
 
-angular.module("SpaApp", ["SpaApp.Controllers"])
+angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"])
     .config(function ($routeProvider) {
         $routeProvider
-            .when('/', {
+            .when("/", {
                 templateUrl: "views/main.html",
                 controller: "MainController"
             })
-            .otherwise({ redirectTo: '/' });
+            .when("/Groups", {
+                templateUrl: "views/groups.html",
+                controller: "GroupsController"
+            })
+            .otherwise({ redirectTo: "/" });
     });

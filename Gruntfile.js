@@ -47,7 +47,8 @@ module.exports = function (grunt) {
         files: [
           "<%=app.basePath%>/js/**/*.js",
           "<%=app.basePath%>/*.html",
-          "<%=app.basePath%>/views/**/*.html"
+          "<%=app.basePath%>/views/**/*.html",
+          "<%=app.basePath%>/css/**/*.css"
         ]
       }
     }

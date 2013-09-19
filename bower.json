@@ -15,10 +15,11 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.0.8",
+    "angular": "~1.2.0-rc.2",
     "lodash": "~2.0.0",
     "bootstrap": "~3.0.0",
     "modernizr": "~2.6.2",
-    "angular-ui": "~0.4.0"
+    "angular-ui": "~0.4.0",
+    "angular-ui-bootstrap-bower": "~0.6.0"
   }
 }

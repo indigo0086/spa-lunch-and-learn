@@ -62,3 +62,17 @@ body {
         bottom: 0;
         position: absolute;
     }
+
+.group-card-container {
+    padding: 15px 0px;
+}
+
+.group-card {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #6b89a1;
+    margin: 15px 30px;
+    text-align: center;
+    vertical-align: middle;
+}
