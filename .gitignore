@@ -1,6 +1,10 @@
 .idea
 *.suo
 bin
+obj
 lib
 bower_components
 node_modules
+*.user
+*.suo
+packages
