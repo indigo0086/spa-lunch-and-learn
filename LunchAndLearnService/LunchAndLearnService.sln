@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchAndLearnService", "LunchAndLearnService\LunchAndLearnService.csproj", "{7EB60002-B70A-4C94-8FAD-03DFAE53FDF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{B525A5B6-F71D-43F0-9AEB-B4F4CF3E7482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7EB60002-B70A-4C94-8FAD-03DFAE53FDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB60002-B70A-4C94-8FAD-03DFAE53FDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB60002-B70A-4C94-8FAD-03DFAE53FDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B525A5B6-F71D-43F0-9AEB-B4F4CF3E7482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B525A5B6-F71D-43F0-9AEB-B4F4CF3E7482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B525A5B6-F71D-43F0-9AEB-B4F4CF3E7482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B525A5B6-F71D-43F0-9AEB-B4F4CF3E7482}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
