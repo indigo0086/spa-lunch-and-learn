@@ -1,4 +1,5 @@
-angular.module("SpaApp.Controllers", []);
+angular.module("SpaApp.Services", []);
+angular.module("SpaApp.Controllers", ["SpaApp.Services"]);
 
 angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"])
     .config(function ($routeProvider) {

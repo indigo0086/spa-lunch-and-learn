@@ -17,6 +17,7 @@ body {
         linear-gradient(90deg, #F5F5F5 8px, transparent 8px) -4px 0;
     background-color: #EDEDED;
     background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    color: #3d4e5d;
 }
 
 .navbar {

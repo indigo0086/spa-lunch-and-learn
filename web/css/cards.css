@@ -1,0 +1,73 @@
+#cardHolder {
+    box-sizing: content-box;
+    width: 1080px;
+    max-width: 100%;
+    min-height: 255px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    margin: 10px auto;
+    padding: 0 10px;
+
+}
+
+.cardItem {
+    width: 355px;
+    max-width: 100%;
+    min-height: 230px;
+    margin: 10px 0;
+    float: left;
+
+    -moz-box-shadow:    2px 2px 2px 1px #F0F0F0;
+    -webkit-box-shadow: 2px 2px 2px 1px #F0F0F0;
+    box-shadow:         2px 2px 2px 1px #F0F0F0;
+}
+    .cardItem:last-child {
+        margin-right: 0;
+    }
+    .cardItem:nth-child(3n+2) {
+        margin: 10px 7px;
+    }
+    .cardItem .info {
+        border-top: 1px solid #FFF;
+        overflow: hidden;
+        padding: 5px;
+    }
+    .cardItem .bioPic {
+        float: left;
+        height: 112px;
+        width: 110px;
+        overflow: hidden;
+    }
+    .cardItem .bioPic img {
+        display: block;
+        padding: 45px 0;
+        border-bottom: 1px solid #000;
+    }
+    .cardItem .bioInfo {
+        float: right;
+        width: 220px;
+        display: block;
+        text-align: justify;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .cardItem .bioInfo p:first-letter {
+        font-size: 22px;
+        padding: 1px;
+    }
+
+.cardTitle {
+    min-height: 35px;
+    max-height: 45px;
+    height: 72px;
+    max-height: 230px;
+    overflow: hidden;
+    background: #ebebeb;
+
+
+}
+    .cardTitle h2 {
+        padding: 10px;
+        font-size: 22px;
+    }
+    .cardTitle p {
+        padding: 5px 10px;
+    }
