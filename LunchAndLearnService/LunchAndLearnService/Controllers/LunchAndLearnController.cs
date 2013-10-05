@@ -4,7 +4,6 @@ using System.Web.Http;
 using AttributeRouting.Web.Http;
 using LunchAndLearnService.Data;
 using LunchAndLearnService.Models;
-using Newtonsoft.Json;
 
 namespace LunchAndLearnService.Controllers
 {

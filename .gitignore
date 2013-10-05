@@ -8,3 +8,4 @@ node_modules
 *.user
 *.suo
 packages
+App_Packages
