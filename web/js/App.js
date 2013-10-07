@@ -12,8 +12,8 @@ angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"])
                 templateUrl: "views/groups.html",
                 controller: "GroupsController"
             })
-            .when("Groups/:groupId", {
-                templateUrl: "views/group-detail.html",
+            .when("/Groups/:groupId", {
+                templateUrl: "views/groupdetail.html",
                 controller: "GroupDetailController"
             })
             .otherwise({ redirectTo: "/" });

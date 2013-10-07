@@ -1,5 +1,5 @@
 <div id="cardHolder">
-    <div class="cardItem" ng-repeat="group in groups" ng-click="goToGroup()">
+    <div class="cardItem" ng-repeat="group in groups" ng-click="goToGroup(group.GroupId)">
         <div class="cardTitle">
             <h2>{{group.Name}}</h2>
         </div>
@@ -11,5 +11,10 @@
                 <p>{{group.Description}}</p>
             </div>
         </div>
+        <h4 class="member-count">
+            <span class="label label-info">{{group.Places.length}} Places</span>
+            <span class="label label-primary">{{group.Members.length}} Members</span>
+        </h4>
+
     </div>
 </div>
