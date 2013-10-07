@@ -9,7 +9,7 @@
 
 }
 
-.cardItem {
+.card-item {
     width: 355px;
     max-width: 100%;
     min-height: 230px;
@@ -17,71 +17,60 @@
     float: left;
     position: relative;
     cursor: pointer;
-
-    -moz-box-shadow:    2px 2px 2px 1px #F0F0F0;
-    -webkit-box-shadow: 2px 2px 2px 1px #F0F0F0;
-    box-shadow:         2px 2px 2px 1px #F0F0F0;
 }
-    .cardItem:hover {
-        -moz-box-shadow:    0px 0px 2px 2px #7fb8f0;
-        -webkit-box-shadow: 0px 0px 2px 2px #7fb8f0;
-        box-shadow:         0px 0px 2px 2px #7fb8f0;
-    }
-
-    .cardItem:last-child {
+    .card-item:last-child {
         margin-right: 0;
     }
-    .cardItem:nth-child(3n+2) {
+    .card-item:nth-child(3n+2) {
         margin: 10px 7px;
     }
-    .cardItem .info {
+    .card-item .info {
         border-top: 1px solid #FFF;
         overflow: hidden;
         padding: 5px;
     }
-    .cardItem .bioPic {
+    .card-item .bio-pic {
         float: left;
         height: 112px;
         width: 110px;
         overflow: hidden;
     }
-    .cardItem .bioPic img {
+    .card-item .bio-pic img {
         display: block;
         padding: 45px 0;
         border-bottom: 1px solid #000;
     }
-    .cardItem .bioInfo {
+    .card-item .bio-info {
         float: right;
         width: 220px;
         display: block;
         text-align: justify;
         font-size: 20px;
     }
-    .cardItem .bioInfo p:first-letter {
+    .card-item .bio-info p:first-letter {
         font-size: 22px;
         padding: 1px;
     }
 
-    .cardItem .member-count {
+    .card-item .member-count {
         position: absolute;
         right: 10px;
         bottom: 10px;
     }
 
-.cardTitle {
+.card-title {
     min-height: 35px;
     max-height: 45px;
     height: 72px;
     max-height: 230px;
     overflow: hidden;
-    background: #ebebeb;
 
 
 }
-    .cardTitle h2 {
+    .card-title h2 {
         padding: 10px;
         font-size: 22px;
     }
-    .cardTitle p {
+    .card-title p {
         padding: 5px 10px;
     }

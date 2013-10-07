@@ -9,7 +9,7 @@ body {
     padding-bottom: 20px;
 }
 
-.site-background{
+.cross-pattern {
     background:
         radial-gradient(circle, transparent 20%, #EDEDED 20%, #EDEDED 80%, transparent 80%, transparent),
         radial-gradient(circle, transparent 20%, #EDEDED 20%, #EDEDED 80%, transparent 80%, transparent) 50px 50px,
@@ -38,7 +38,6 @@ body {
 .center {
     text-align: center;
 }
-
 
 .padding-vert-md {
     padding: 1.1em 0em;
@@ -77,3 +76,36 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+.page-section {
+    margin-top: 45px;
+}
+    .page-section h2 {
+        margin-bottom: 25px;
+    }
+
+.page-section h2 {
+    display: inline;
+}
+
+.page-section button {
+    margin-left: 20px;
+}
+
+.page-section .member-list, .page-section .places-list {
+    margin-top: 20px;
+}
+    .page-section .member-list span {
+        margin: 0px 10px;
+    }
+
+.item-shadow {
+    -moz-box-shadow:    2px 2px 2px 1px #F0F0F0;
+    -webkit-box-shadow: 2px 2px 2px 1px #F0F0F0;
+    box-shadow:         2px 2px 2px 1px #F0F0F0;
+}
+    .item-shadow:hover {
+        -moz-box-shadow:    0px 0px 2px 2px #7fb8f0;
+        -webkit-box-shadow: 0px 0px 2px 2px #7fb8f0;
+        box-shadow:         0px 0px 2px 2px #7fb8f0;
+    }

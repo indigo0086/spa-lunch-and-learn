@@ -1,13 +1,13 @@
 <div id="cardHolder">
-    <div class="cardItem" ng-repeat="group in groups" ng-click="goToGroup(group.GroupId)">
-        <div class="cardTitle">
+    <div class="card-item item-shadow" ng-repeat="group in groups" ng-click="goToGroup(group.GroupId)">
+        <div class="card-title cross-pattern">
             <h2>{{group.Name}}</h2>
         </div>
         <div class="info">
-            <div class="bioPic">
+            <div class="bio-pic">
                 <img src=""/>
             </div>
-            <div class="bioInfo">
+            <div class="bio-info">
                 <p>{{group.Description}}</p>
             </div>
         </div>
@@ -15,6 +15,5 @@
             <span class="label label-info">{{group.Places.length}} Places</span>
             <span class="label label-primary">{{group.Members.length}} Members</span>
         </h4>
-
     </div>
 </div>
