@@ -60,20 +60,6 @@ namespace LunchAndLearnService.Controllers
             return groupById;
         }
 
-        [GET("Groups/{id}/Users")]
-        public IEnumerable<User> GetUsersForGroupById(int id)
-        {
-            var grp = _repository.Groups.Single(g => g.GroupId == id);
-            if (grp != null)
-            {
-                return from userId in grp.MemberIds
-                       join user in _repository.Users
-                       on userId equals user.UserId
-                       select user;
-            }
-            return null;
-        }
-
         #endregion
     }
 }

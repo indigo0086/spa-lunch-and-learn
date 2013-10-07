@@ -21,21 +21,33 @@ namespace LunchAndLearnService.Data
                 new User { UserId = 4, Name = "WhaltWhitman",   Email = "iamthedanger@hotmail.com" }
             };
 
-            Groups = new List<Group>
-            {
-                new Group { GroupId = 1, Name = "The Great Outdoors",   Description = "Outdoor activities, Get off the couch", MemberIds = new [] { 1, 3, 4 }},
-                new Group { GroupId = 2, Name = "Weekend Nightlife",    Description = "Weekend starts Friday", MemberIds = new [] { 1, 2 } },
-                new Group { GroupId = 3, Name = "Dog's BBQ Tuesdays",   Description = "Some Guy Named Dog eats bbq on tuesdays", MemberIds = new [] { 2, 3, 4 } }
-            };
-
             Places = new List<Place>
             {
-                new Place { PlaceId = 1, Name = "Kentucky Nowhere",         Description = "Middle of nowhere in kentucky",  Address = "Cr-1078, Ravenna, KY 40472" },
-                new Place { PlaceId = 2, Name = "Linger Bickin' Farbeceu",  Description = "Great BBQ",  Address = "Florida 84, Davie, FL 33317" },
-                new Place { PlaceId = 3, Name = "Camp Site",                Description = "Unknown Camp-site ",  Address = "TBA" },
-                new Place { PlaceId = 4, Name = "YOLLADBO",                 Description = "Hip Club",  Address = "1745 Alton Rd, Miami Beach, FL 33140" },
-                new Place { PlaceId = 5, Name = "Da Club",                  Description = "",  Address = "184 SN 12th Ct." },
-                new Place { PlaceId = 6, Name = "Da Pub",                   Description = "",  Address = "185 SN 12th Ct." }
+                new Place { PlaceId = 1, Name = "Kentucky Nowhere",     Description = "Middle of nowhere in kentucky",  Address = "Cr-1078, Ravenna, KY 40472" },
+                new Place { PlaceId = 2, Name = "Finger Lickin Bbq",    Description = "Great BBQ",  Address = "Florida 84, Davie, FL 33317" },
+                new Place { PlaceId = 3, Name = "Camp Site",            Description = "Unknown Camp-site ",  Address = "TBA" },
+                new Place { PlaceId = 4, Name = "YOLLADBO",             Description = "Hip Club",  Address = "1745 Alton Rd, Miami Beach, FL 33140" },
+                new Place { PlaceId = 5, Name = "Da Club",              Description = "",  Address = "184 SN 12th Ct." },
+                new Place { PlaceId = 6, Name = "Da Pub",               Description = "",  Address = "185 SN 12th Ct." },
+                new Place { PlaceId = 7, Name = "Bonnanos Ristorante",  Description = "Incredible italian food"}
+            };
+
+            Events = new List<Event>
+            {
+                new Event {EventId = 1, Name = "Hiking Trip", Description = "Find some new places to hike"}
+            };
+
+            Groups = new List<Group>
+            {
+                new Group { GroupId = 1, Name = "The Great Outdoors",   Description = "Outdoor activities, Get off the couch", 
+                    Members = new [] { Users[0], Users[2], Users[3] },
+                    Places = new [] { Places[0], Places[2] }},
+                new Group { GroupId = 2, Name = "Weekend Nightlife",    Description = "Weekend starts Friday", 
+                    Members = new [] { Users[0], Users[1] },
+                    Places = new [] { Places[2], Places[3], Places[4], Places[5] }},
+                new Group { GroupId = 3, Name = "Foodies",   Description = "Suggest some food places.", 
+                    Members = new [] { Users[1], Users[2], Users[3] },
+                    Places = new [] { Places[1], Places[6] }}
             };
         }
     }

@@ -2,21 +2,14 @@
 
 namespace LunchAndLearnService.Models
 {
-    public class Stats
-    {
-        public int PlacesCount { get; set; }
-        public int GroupsCount { get; set; }
-        public int EventsCount { get; set; }
-    }
-
     public class Group
     {
         public int GroupId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public ICollection<int> MemberIds { get; set; }
-        public ICollection<int> EventIds { get; set; }
+        public ICollection<User> Members { get; set; }
+        public ICollection<Place> Places { get; set; }
     }
 
     public class Event
