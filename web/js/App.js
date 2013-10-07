@@ -1,4 +1,4 @@
-angular.module("SpaApp.Services", []);
+angular.module("SpaApp.Services", ["ngResource"]);
 angular.module("SpaApp.Controllers", ["SpaApp.Services"]);
 
 angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"])
@@ -11,6 +11,10 @@ angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"])
             .when("/Groups", {
                 templateUrl: "views/groups.html",
                 controller: "GroupsController"
+            })
+            .when("Groups/:groupId", {
+                templateUrl: "views/group-detail.html",
+                controller: "GroupDetailController"
             })
             .otherwise({ redirectTo: "/" });
     });

@@ -13,6 +13,7 @@ namespace LunchAndLearnHost
             var config = new HttpSelfHostConfiguration("http://localhost:8080");
             config.Routes.MapHttpAttributeRoutes(cfg => cfg.AddRoutesFromController<LunchAndLearnController>());
             config.MessageHandlers.Add(new SimpleCorsHandler());
+
             using (HttpSelfHostServer server = new HttpSelfHostServer(config))
             {
                 Console.WriteLine("Starting Service...");

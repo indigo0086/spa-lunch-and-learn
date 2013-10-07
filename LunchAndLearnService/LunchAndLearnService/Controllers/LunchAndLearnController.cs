@@ -16,6 +16,19 @@ namespace LunchAndLearnService.Controllers
             _repository = new LunchAndLearnRepository();
         }
 
+        [GET("Stats")]
+        public object GetStats()
+        {
+            var stats = new Dictionary<string, int>
+            {
+                { "groupsCount", _repository.Groups == null ? 0 : _repository.Groups.Count},
+                { "placesCount", _repository.Places == null ? 0 : _repository.Places.Count},
+                { "eventsCount", _repository.Events == null ? 0 : _repository.Events.Count}
+            };
+
+            return stats;
+        }
+
         #region User Methods
 
         [GET("Users")]
