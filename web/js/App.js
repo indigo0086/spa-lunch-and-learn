@@ -2,7 +2,6 @@ angular.module("SpaApp.Services", ["ngResource"]);
 angular.module("SpaApp.Controllers", ["SpaApp.Services"]);
 
 var app = angular.module("SpaApp", ["ngRoute", "SpaApp.Controllers"]);
-
 //constants for username
 app.constant("userId", "1");
 app.constant("userName", "MonsterMash");

@@ -1,5 +1,24 @@
 <div class="container">
-    <div>
-        <h2>Test {{group.Name}}</h2>
+    <div class="page-header">
+        <h1>{{group.Name}} <small>{{group.Description}}</small></h1>
     </div>
+
+    <div class="page-section">
+        <h2><i class="icon-group"></i> Members</h2>
+        <button class="btn btn-primary" ng-click="joinGroup(group.GroupId)">Join Group</button>
+        <div class="well well-sm member-list">
+            <h4>
+                <span class="label label-primary" ng-repeat="member in group.Members">{{member.Name}}</span>
+            </h4>
+        </div>
+    </div>
+
+    <div class="page-section">
+        <h2><i class="icon-globe"></i>  Places</h2>
+        <button class="btn btn-primary">Suggest a Place</button>
+        <div class="well well-lg places-list">
+
+        </div>
+    </div>
+
 </div>
