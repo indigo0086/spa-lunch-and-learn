@@ -9,7 +9,7 @@ Visit the [Node Website](http://nodejs.org/) and install node for your platform
 ## Install yeoman
 In the command line, run the following command:
 
-    node install -g yeoman
+    node install -g yo
 
 This will install yeoman globally.
 
